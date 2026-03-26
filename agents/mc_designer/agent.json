@@ -1,0 +1,10 @@
+{
+  "name": "Lisa",
+  "identity_file": "agents/mc_designer/identity.md",
+  "agentDir": "agents/mc_designer",
+  "model_routing": {
+    "primary": "openrouter/deepseek/deepseek-v3-2",
+    "fallbacks": ["openrouter/google/gemini-2.5-flash", "openrouter/anthropic/claude-sonnet-4.6"],
+    "note": "Requires sandbox verification for DeepSeek V3-2 before Primary use."
+  }
+}
