@@ -1,0 +1,9 @@
+{
+  "name": "Ryan",
+  "identity_file": "agents/chief_pm/identity.md",
+  "agentDir": "agents/chief_pm",
+  "model_routing": {
+    "primary": "openrouter/google/gemini-2.5-flash",
+    "fallbacks": ["openrouter/google/gemini-2.5-flash-lite", "openrouter/anthropic/claude-sonnet-4.6"]
+  }
+}
