@@ -1,9 +1,9 @@
 {
-  "model": {
+  "name": "Mark",
+  "identity_file": "agents/mark/identity.md",
+  "agentDir": "agents/mark",
+  "model_routing": {
     "primary": "openrouter/google/gemini-2.5-flash",
-    "fallbacks": [
-      "openrouter/google/gemini-2.5-flash-lite",
-      "openrouter/anthropic/claude-sonnet-4.6"
-    ]
+    "fallbacks": ["openrouter/google/gemini-2.5-flash-lite", "openrouter/anthropic/claude-sonnet-4.6"]
   }
 }
