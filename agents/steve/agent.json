@@ -1,9 +1,10 @@
 {
-  "model": {
+  "name": "Steve",
+  "identity_file": "agents/steve/identity.md",
+  "agentDir": "agents/steve",
+  "model_routing": {
     "primary": "openrouter/deepseek/deepseek-v3-2",
-    "fallbacks": [
-      "openrouter/google/gemini-2.5-flash",
-      "openrouter/anthropic/claude-sonnet-4.6"
-    ]
+    "fallbacks": ["openrouter/google/gemini-2.5-flash", "openrouter/anthropic/claude-sonnet-4.6"],
+    "note": "Requires sandbox verification for DeepSeek V3-2 before Primary use."
   }
 }
