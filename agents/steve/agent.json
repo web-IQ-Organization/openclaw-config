@@ -1,0 +1,9 @@
+{
+  "model": {
+    "primary": "openrouter/deepseek/deepseek-v3-2",
+    "fallbacks": [
+      "openrouter/google/gemini-2.5-flash",
+      "openrouter/anthropic/claude-sonnet-4.6"
+    ]
+  }
+}
